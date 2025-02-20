@@ -1,0 +1,41 @@
+int age = 20; → Declares an integer variable and assigns it the value 20.
+double price = 19.99; → Declares a floating-point number for storing decimal values.
+char grade = 'A'; → Stores a single character.
+string name = "Alice"; → Stores a sequence of characters (a string).
+cout << is used to print text to the console.
+endl moves to the next line.Replaced cin >> hidaya; with cin >> name;
+
+'hidaya' was not a declared variable; we needed to use name.
+Replaced cin >> 22; with cin >> age;
+We cannot input a fixed number like 22 directly; instead, we store user input in age.
+
+Function Definition (int add(int a, int b)) → This function takes two integer parameters and returns their sum.
+Function Call (add(5, 10)) → Calls the function with 5 and 10 as arguments.
+Return Statement (return a + b;) → The function computes and returns the sum.
+Variable sum stores the result (sum = add(5, 10);).
+Output is displayed using cout.
+
+Uses if-else to check if a number is divisible by 2.
+cin >> number; → Takes user input.
+number % 2 == 0 → Checks if the remainder is 0 (even number).
+Outputs "even" or "odd" based on the result.
+
+Declares an array (int numbers[5] = {10, 20, 30, 40, 50};).
+Loops through each element using a for loop (for (int i = 0; i < 5; i++)).
+Prints each value using cout << numbers[i].
+
+Uses functions to perform addition, subtraction, multiplication, and division.
+Switch-case handles user choice.
+Prevents division by zero using an if statement.
+
+<iostream> is a standard C++ library that allows input and output operations.
+It enables the use of cin (for input) and cout (for output).
+Without including <iostream>, we cannot use cout or cin, and the program won’t compile.
+
+Without including <iostream>, we cannot use cout or cin, and the program won’t compile.
+
+Feature	Description	Example Usage
+<iostream>	Enables input (cin) and output (cout) operations	#include <iostream>
+return 0;	Indicates successful program execution	return 0;
+cout	Outputs text, numbers, or variables to the console	cout << "Hello!";
+
